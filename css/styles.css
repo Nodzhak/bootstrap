@@ -54,3 +54,19 @@ header, footer{
     color: --bs-white;
     background-color: var(--bs-gray-200);
 }
+
+.color1{
+    color: var(--color1);
+}
+
+.color2{
+    color: var(--color2);
+}
+
+.bg1{
+    background-color: var(--color1);
+}
+
+.cbg{
+    background-color: var(--color2);
+}
