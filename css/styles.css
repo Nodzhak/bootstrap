@@ -70,3 +70,31 @@ header, footer{
 .cbg{
     background-color: var(--color2);
 }
+
+.about{
+    background-color:azure
+}
+
+.icon_svg{
+    fill: #752201;
+    font-size: 25px;
+}
+
+.itd_circle{
+    margin: 0 auto 15px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto;
+
+}
