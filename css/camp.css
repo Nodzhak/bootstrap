@@ -25,10 +25,6 @@ li{
   font-weight: lighter;
 }
 
-.card{
-  /* height: 450px; */
-}
-
 .card-img-top {
 padding: 40px;
   }
@@ -52,11 +48,6 @@ width: 284px;
     font-weight: bold;
   }
 
-
-
- .card_content{
-  /* padding: 40px; */
- }
  .card_image{
   max-width: 342px;
  }
@@ -158,8 +149,6 @@ width: 284px;
   border: 2px solid #F3FAFA;
   box-shadow: 2px 2px 4px rgba(252, 252, 252, 0.9);
 }
-
-
 
 .frame {
   padding: 34px;
