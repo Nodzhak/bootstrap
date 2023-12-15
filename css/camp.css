@@ -1,0 +1,279 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #FAFAFA;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  color: #111111;
+  }
+h1, h2, h3{
+  font-weight: bold;
+  padding-top: 36px;
+}
+ul{
+  padding-left: 0;
+}
+li{
+  list-style-type: none;
+}
+
+.text-styles{
+  font-family: 'Covered By Your Grace', cursive;
+  color: #009387;
+  font-weight: lighter;
+}
+
+.card{
+  /* height: 450px; */
+}
+
+.card-img-top {
+padding: 40px;
+  }
+
+  .coments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .coments p{
+    margin-bottom: 0;
+  }
+
+  .card-brands .card-body{
+text-align: center;
+height: 250px;
+width: 284px;
+  }
+  .card-title{
+    font-weight: bold;
+  }
+
+
+
+ .card_content{
+  /* padding: 40px; */
+ }
+ .card_image{
+  max-width: 342px;
+ }
+
+ .swiper-slide{
+  padding: 20px;
+ }
+
+ .card_content{
+  padding-top: 20px;
+ }
+
+ .logos{
+  display: flex;
+  gap: 20px;
+ }
+
+ .first, .third, .six{
+  background-color: #E0F8F2;
+ }
+
+ .four{
+  background-color: #FDF3EA;
+ }
+
+ .eight{
+  background-color: #EEECFF;
+ }
+
+ .nine{
+  background-color: #FF6D2C;
+ }
+
+ .ten{
+  background-color: #F3FAFA;
+ }
+
+ .btn-white{
+  border: 2px solid #2E2F35;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.btn-orange{
+  padding: 11px 33px;
+  background-color: #FF6D2C;
+  border-radius: 15px;
+  border: 2px solid #2E2F35;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.btn-orange:hover,
+.btn-orange:focus{
+  background-color: #F3FAFA;
+  border: 2px solid  #FF6D2C;
+  color: #FF6D2C;
+  box-shadow: 2px 2px 4px rgba(250, 39, 39, 0.9);
+}
+
+.btn-orange-header{
+  background-color: #FF6D2C;
+  border-radius: 12px;
+  border: 2px solid #2E2F35;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.btn-orange-header:hover,
+.btn-orange-header:focus{
+  background-color: #F3FAFA;
+  border: 2px solid  #FF6D2C;
+  color: #FF6D2C;
+  box-shadow: 2px 2px 4px rgba(250, 39, 39, 0.9);
+}
+
+.btn-white-header{
+  background-color: #F3FAFA;
+  color: #2E2F35;
+  border-radius: 12px;
+  border: 2px solid #2E2F35;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.btn-white-header:hover,
+.btn-white-header:focus{
+  background-color: #2E2F35;
+  color: #F3FAFA;
+  border: 2px solid #F3FAFA;
+  box-shadow: 2px 2px 4px rgba(252, 252, 252, 0.9);
+}
+
+.btn-white{
+  padding: 11px 33px;
+  background-color: #F3FAFA;
+  color: #2E2F35;
+  border-radius: 15px;
+  border: 2px solid #2E2F35;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.btn-white:hover,
+.btn-white:focus{
+  background-color: #2E2F35;
+  color: #F3FAFA;
+  border: 2px solid #F3FAFA;
+  box-shadow: 2px 2px 4px rgba(252, 252, 252, 0.9);
+}
+
+
+
+.frame {
+  padding: 34px;
+      position: relative;
+      width: 100%;
+      border: 2px solid #D1C7BE;
+      border-radius: 20px; 
+    }
+
+    .frame::before {
+      content: "";
+      position: absolute;
+      top: -5px; 
+      left: 5%;
+      width: 40px; 
+      height: 5px; 
+      background-color:  #FDF3EA; 
+    }
+
+    .vector{
+      position: relative;
+      top: -45px;
+    }
+
+    .postcard{
+      padding: 0 34px;
+    }
+
+    .hex-1{
+      background-color: #FDF3EA;
+    }
+
+    .hex-2{
+      background-color: #E0F8F2;
+    }
+
+    .hex-3{
+      background-color: #EEECFF;
+    }
+
+    .hex-4{
+      background-color: #D9F2F7;
+    }
+
+    .hex-5{
+      background-color: #FAEDED;
+    }
+
+    .hex-6{
+      background-color: #F1F1F1;
+    }
+
+.twitter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    .twitter img{
+
+      padding: 0;
+    }
+
+
+    .swiper-slide{
+      height: 100%;
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .slider {
+      margin: 0 -10px; 
+    }
+  
+    .swiper-slide {
+      margin: 0 10px; 
+    }
+
+
+    .second-brands .col-12 {
+      flex: 0 0 auto;
+      width: 25%;}
+
+      @media (max-width: 992px) {
+        .second-brands .col-12 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .second-brands .col-12 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+
+    .card .card-body{
+      text-align: center;
+    }
+    
+    
+.footer-company a{
+  padding-top: 15px;
+}
+
+.footer-contact img{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
